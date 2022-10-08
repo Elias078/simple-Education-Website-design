@@ -1,0 +1,360 @@
+*{
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 223, 223)
+  }
+
+
+  .s1{
+      background-color: rgba(27, 26, 31, 0.904);
+      height: 80vh;
+      border-radius: 10px;
+  }
+
+  .navbar .flag{
+      display: flex;
+      margin-top: -10px;
+      opacity: 60%;
+  }
+
+  .navbar #black{
+      width: 80px;
+      height: 70px;
+      background-color: black;
+      border-bottom-left-radius: 60px;
+      border-top-left-radius: 60px;
+  }
+
+  .navbar #red{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+
+.navbar #green{
+    width: 80px;
+    height: 70px;
+    background-color: green;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+}
+  
+
+
+  /* Nav-bar */
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(233, 230, 230);
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    padding: 10px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    transition: 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.3s ease;
+    
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .s1 .navbar .nav-right{
+      float: right;
+  }
+
+
+  .navbar #login{
+      background-color: rgb(8, 143, 8);
+      border-radius: 30px;
+      width: 80px;
+      
+  }
+  .navbar #login:hover{
+    background-color: rgb(31, 102, 31);
+}
+
+  .navbar #web{
+      background-color: palevioletred;
+      width: 80px;
+      border-radius: 30px;
+  }
+
+  .navbar #web:hover{
+    background-color: rgb(156, 72, 100);
+}
+
+
+.navbar #pcors:hover{
+    background-color: rgb(31, 102, 31);
+    border-radius: 30px;
+}
+
+  
+
+/* Search bar */
+  
+
+  .navbar .search-container {
+    float: right;
+  }
+  
+  .navbar input[type=text] {
+      border: 2px solid black;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 18px;
+    border: none;
+    display: none;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .navbar .search-container button {
+    
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(255, 253, 253);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  
+  .navbar .search-container button:hover {
+    background: rgb(175, 169, 169);
+  }
+
+
+
+  /*  Main-Content  */
+
+
+  .main-content{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 
+    'left' 'right';
+     
+  }
+
+
+
+  .left{
+    grid-template-areas: left;
+    
+    height: 71.2vh;
+    border-radius: 10px;
+    text-align: center;
+    
+    margin-top: 80px;
+    
+    
+}
+
+
+
+
+.left h2{
+    color: white;
+    font-size: 50px;
+}
+
+.left p{
+    color: white;
+    font-size: 20px;
+}
+
+.left .btns{
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.left .btns a{
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 20px;
+    width: 300px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.left #b1{
+    background-color: rgb(64, 230, 174);
+    
+}
+
+.left #b1:hover{
+    background-color: rgb(40, 129, 100);;
+}
+
+.left #b2{
+    background-color: rgb(197, 197, 63);
+    margin-left: 20px;
+    
+}
+
+.left #b2:hover{
+    background-color: rgb(131, 131, 21);
+}
+
+.left #b3{
+    background-color: rgb(48, 48, 128);
+    margin-left: 20px;
+    
+}
+
+.left #b3:hover{
+    background-color: rgb(19, 19, 70);
+}
+
+.left #txt{
+    font-size: 18px;
+    font-family: monospace;
+    margin-top: 50px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+  
+
+  .right{
+    grid-template-areas: left;
+    
+  }
+
+  .main-content .tab{
+      background-color: gray;
+      width: 600px;
+      height: 440px;
+      padding: 5px;
+      margin-left: 100px;
+      margin-top: 30px;
+      border-radius: 10px;
+
+      
+  }
+
+  .main-content .tab h1{
+      margin-left: 10px;
+  }
+
+  .right .sub-tab{
+      background-color: white;
+      width: 550px;
+      height: 300px;
+      margin-left: 10px;
+      border-left: 5px solid rgb(11, 138, 74);
+      border-radius: 10px;
+      
+  }
+
+  .right .sub-tab img{
+      width: 500px;
+      height: 300px;
+      border-radius: 30px;
+  }
+
+
+  .tab a{
+      color: white;
+      background-color: rgb(11, 138, 74);
+      font-weight: bold;
+      font-size: 20px;
+      padding: 15px;
+  }
+
+  .tab #lastbtn{
+      margin-left: 30px;
+      position: absolute;
+      margin-top: 13px;
+      border-radius: 20px;
+      transition: 0.3s ease;
+  }
+
+  .tab #lastbtn:hover{
+   background-color: rgb(29, 99, 64);;
+}
+
+
+  
+
+  
+  
+  
+ 
